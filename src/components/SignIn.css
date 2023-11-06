@@ -1,0 +1,30 @@
+.sigh-in-page {
+  margin: 25px 10px 32px 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sigh-in-introduction {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-account-1 {
+  background-color: #b1b1b1cb;
+  border-radius: 8px;
+  border-style: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Rubik";
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+}

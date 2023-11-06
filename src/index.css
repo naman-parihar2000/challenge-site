@@ -1,0 +1,82 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+MAIN COLOR: #087f5b
+GREY COLOR: #343a40
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --primary: #6d25fe;
+  --secondary: #cebafb;
+  --background: #f6f6f6;
+  --font-primary: #343a40;
+  --font-secondary: #8e9194;
+  --font-tertiary: #dddddd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--font-primary);
+  font-family: "Rubik", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--font-primary);
+}
+
+p {
+  color: var(--font-secondary);
+}
+
+/* COMMON CODE FOR INPUT FIELDS*/
+
+.input-container {
+  margin-top: 1.5rem;
+  position: relative;
+}
+
+.input-label {
+  position: absolute;
+  left: 10px;
+  top: -7px;
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 13px;
+  background-color: var(--background);
+  padding: 0 3px 0 3px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border-style: none;
+  border: 2px solid var(--font-tertiary);
+  border-radius: 5px;
+  background: var(--background);
+}
+
+.input-field:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: var(--font-tertiary);
+  font-family: inherit;
+}

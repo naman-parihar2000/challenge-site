@@ -1,0 +1,58 @@
+.account {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-setting {
+  padding: 2rem 1rem 1rem 1rem;
+  margin: 1px;
+  background-color: #fff;
+}
+
+.account-setting h1 {
+  font-weight: 400;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.pic-name-display {
+  margin: 10px 10px 20px 10px;
+  padding: 10px;
+}
+
+.image {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+svg {
+  background-color: var(--primary);
+  border-radius: 50%;
+  padding: 2px;
+  position: absolute;
+  top: 160px;
+  left: 95px;
+}
+
+.name-email h2 {
+  font-weight: 500;
+}
+
+.intro-paragraph {
+  margin: 0px 10px 32px 10px;
+  padding: 0px 10px;
+  color: var(--font-primary);
+  font-weight: 500;
+}
+
+.dash {
+  border: 0 none;
+  border-top: 2px dashed #dddddd;
+  background: none;
+  height: 0;
+}
